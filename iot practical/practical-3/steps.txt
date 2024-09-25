@@ -1,0 +1,10 @@
+to kow the ip address 
+	ifconfig 
+/ipconfig
+
+to ping to another ipaddress
+	ping ip address
+
+to know the hostname of pc
+	hostname
+

@@ -1,0 +1,24 @@
+start with /home/pi directory 
+
+execute command 
+	wget -0 - http://apt.pm-codeworks.de/pm-codeworks.de.grep | apt-key add -
+
+	wget http://apt.pm-codeworks.de/pm-codeworks.list -P /etc/apt/sources.list.d /
+
+	apt-get update
+	
+	apt-get install python-fingerprint
+
+	exit 
+
+	ls/dev/ttyUSB*
+	
+	cd /user/Share/doc/python-fingerprint/examples	
+
+	run example_index.py
+
+	run example_enroll.py
+
+	run example_search.py
+	
+	run example_downloadimage.py

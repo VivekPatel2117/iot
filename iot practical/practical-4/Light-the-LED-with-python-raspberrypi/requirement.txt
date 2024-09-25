@@ -1,0 +1,8 @@
+Raspberry pi
+BreadBoard,
+LED,
+Jumper wire,
+Keyboard,
+mouse,
+monitor,
+micro USB 

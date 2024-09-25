@@ -1,0 +1,36 @@
+Requirements
+	Raspbeery pi 
+	RFID Reader eg (RC522 or EM18)
+	RFID Tags (compatib;e with RFID reader)
+	Jumper wires
+	Breadboard (optional)
+	Power Supply (5V for raspbeery pi)
+
+Steps:
+	sudo apt-get update 
+	sudo apt-get upgrade
+	sudo raspi-config
+	go to INterfaceOptions 
+	inside that go to SPI
+
+	sudo reboot
+
+	lsmod | grep spi 
+
+	sudo apt-get install python-spider
+	
+	sudo apt-get install python3-spider
+
+	git clone https://github.com/lthiery/SPI-py.git
+
+	ls and check if the SPI.py exist in any folder
+
+	cd SPI.py
+
+	git clone https://github.com/pimy/lifeao/MFRC522-python.git
+
+	ls and check for MFRC522-python
+
+	cd MFRC522-python
+
+	inside this place read.py and write.py
